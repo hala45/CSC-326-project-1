@@ -30,7 +30,7 @@ int main(){
  int testNumbMin = 0;
 
  //opening input file
- input.open("Grades.txt");
+ input.open("grades.txt");
  //checking for error
  if (input.fail()) {
   cerr << "Error opening the input file..." << endl;
